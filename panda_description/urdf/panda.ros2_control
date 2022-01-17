@@ -46,7 +46,9 @@
         <xacro:if value="${'effort' in command_interface}">
           <command_interface name="effort"/>
         </xacro:if>
-        <state_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">0.0</param>
+        </state_interface>
         <state_interface name="velocity"/>
         <state_interface name="effort"/>
       </joint>
@@ -61,7 +63,9 @@
         <xacro:if value="${'effort' in command_interface}">
           <command_interface name="effort"/>
         </xacro:if>
-        <state_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">-0.6908</param>
+        </state_interface>
         <state_interface name="velocity"/>
         <state_interface name="effort"/>
       </joint>
@@ -76,7 +80,9 @@
         <xacro:if value="${'effort' in command_interface}">
           <command_interface name="effort"/>
         </xacro:if>
-        <state_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">0.0</param>
+        </state_interface>
         <state_interface name="velocity"/>
         <state_interface name="effort"/>
       </joint>
@@ -91,7 +97,9 @@
         <xacro:if value="${'effort' in command_interface}">
           <command_interface name="effort"/>
         </xacro:if>
-        <state_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">-2.9053</param>
+         </state_interface>
         <state_interface name="velocity"/>
         <state_interface name="effort"/>
       </joint>
@@ -106,7 +114,9 @@
         <xacro:if value="${'effort' in command_interface}">
           <command_interface name="effort"/>
         </xacro:if>
-        <state_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">0.0</param>
+         </state_interface>
         <state_interface name="velocity"/>
         <state_interface name="effort"/>
       </joint>
@@ -121,7 +131,9 @@
         <xacro:if value="${'effort' in command_interface}">
           <command_interface name="effort"/>
         </xacro:if>
-        <state_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">2.2145</param>
+        </state_interface>
         <state_interface name="velocity"/>
         <state_interface name="effort"/>
       </joint>
@@ -136,7 +148,9 @@
         <xacro:if value="${'effort' in command_interface}">
           <command_interface name="effort"/>
         </xacro:if>
-        <state_interface name="position"/>
+        <state_interface name="position">
+          <param name="initial_value">0.7852</param>
+        </state_interface>
         <state_interface name="velocity"/>
         <state_interface name="effort"/>
       </joint>
